@@ -7,3 +7,6 @@ ro.af.client_heap_size_kbyte=7168
 
 # GMS
 ro.opa.device_model_id=ga-oplus-skill-os121-211011
+
+# Partition source order for Product/Build properties pickup
+ro.product.property_source_order=odm,vendor,product,system_ext,system
