@@ -37,7 +37,7 @@ import androidx.preference.SwitchPreference;
 import java.util.Arrays;
 
 import org.lineageos.device.DeviceSettings.Constants;
-import org.lineageos.internal.util.FileUtils;
+//import org.lineageos.internal.util.FileUtils;
 
 public class DeviceSettings extends PreferenceFragment
         implements Preference.OnPreferenceChangeListener {
