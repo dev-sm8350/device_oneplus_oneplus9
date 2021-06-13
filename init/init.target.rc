@@ -84,8 +84,6 @@ on fs && property:ro.boot.product.vendor.sku=lahaina
     mount vfat /dev/block/bootdevice/by-name/spunvm /mnt/vendor/spunvm rw noatime shortname=lower,uid=1000,gid=1000,dmask=007,fmask=007,context=u:object_r:vendor_spunvm_file:s0
 
 on late-fs
-    wait_for_prop hwservicemanager.ready true
-    #exec_start wait_for_keymaster
     mount_all --late
 
 on post-fs-data
