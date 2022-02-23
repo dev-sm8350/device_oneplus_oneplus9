@@ -77,6 +77,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.oplus
 
+TARGET_HAS_UDFPS := true
+
 # Boot
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti \
