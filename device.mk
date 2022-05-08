@@ -167,11 +167,9 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
 
 # Init
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/init/fstab.default:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.default
-
 PRODUCT_PACKAGES += \
     fstab.default \
+    fstab.default.vendor_ramdisk \
     init.oplus.display.rc \
     init.oplus.overlay.rc \
     init.oplus.perf.rc \
