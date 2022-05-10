@@ -292,6 +292,8 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.oplus.rc \
     init.class_main.sh \
+    init.oplus.hw.rc \
+    init.oplus.hw.rc.recovery \
     init.oplus.rc \
     init.oplus.sh \
     init.qcom.early_boot.sh \
