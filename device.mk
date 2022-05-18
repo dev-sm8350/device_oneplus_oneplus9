@@ -309,6 +309,8 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.sys.radio.nrmode.auto=3
 
 # Overlays
+$(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
+
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
