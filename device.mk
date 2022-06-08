@@ -272,6 +272,7 @@ PRODUCT_PACKAGES += \
     OnePlus9Settings \
     OnePlus9SettingsProvider \
     OnePlus9SystemUI \
+    OPlus9WifiOverlay \
     WifiResTarget \
     WifiResTargetMainline
 
