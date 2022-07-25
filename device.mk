@@ -109,6 +109,10 @@ PRODUCT_PACKAGES += \
 
 TARGET_HAS_UDFPS := true
 
+# Authsecret
+PRODUCT_PACKAGES += \
+    android.hardware.authsecret@1.0.vendor
+
 # Bluetooth
 PRODUCT_VENDOR_PROPERTIES += \
     persist.sys.fflag.override.settings_bluetooth_hearing_aid=true \
