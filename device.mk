@@ -96,6 +96,10 @@ PRODUCT_PACKAGES += \
 
 TARGET_HAS_UDFPS := true
 
+# Authsecret
+PRODUCT_PACKAGES += \
+    android.hardware.authsecret@1.0.vendor
+
 # Boot
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti \
