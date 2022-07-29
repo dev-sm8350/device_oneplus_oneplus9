@@ -87,6 +87,9 @@ on post-fs
     # set RLIMIT_MEMLOCK to 64MB
     setrlimit 8 67108864 67108864
 
+    # System Vibration
+    chown system system /sys/devices/platform/soc/88c000.i2c/i2c-6/6-005a/leds/vibrator/level
+
 on late-fs
     wait_for_prop hwservicemanager.ready true
     #exec_start wait_for_keymaster
@@ -130,6 +133,16 @@ on boot
     setprop vendor.usb.controller a600000.dwc3
     #Allow access to memory hotplug device attributes
     chown system system /sys/kernel/mem-offline/anon_migrate
+
+    # Measured FPS
+    chown system system /sys/class/drm/sde-crtc-0/measured_fps
+
+    # Hyper Touch
+    chown system system /proc/touchpanel/game_switch_enable
+
+    # TP Edge Touch Limit
+    chown system system /proc/touchpanel/oplus_tp_direction
+    write /proc/touchpanel/oplus_tp_direction 0
 
 on property:vendor.display.lcd_density=560
    setprop dalvik.vm.heapgrowthlimit 256m

@@ -473,6 +473,11 @@ PRODUCT_PACKAGES += \
     WifiResTarget \
     WifiResTargetMainline
 
+
+# OnePlusSettings
+PRODUCT_PACKAGES += \
+    OnePlusSettings
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
