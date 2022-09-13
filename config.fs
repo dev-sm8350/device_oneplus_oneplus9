@@ -28,6 +28,9 @@ value:2909
 [AID_VENDOR_LAUNCHER]
 value:2988
 
+[AID_VENDOR_QCC]
+value:2914
+
 [AID_VENDOR_SAURES]
 value:2989
 
