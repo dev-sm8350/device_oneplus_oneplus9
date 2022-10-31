@@ -267,7 +267,9 @@ PRODUCT_PACKAGES += \
     sensors.oplus
 
 # Shipping API
-PRODUCT_SHIPPING_API_LEVEL := 30
+BOARD_API_LEVEL := 30
+BOARD_SHIPPING_API_LEVEL := $(BOARD_API_LEVEL)
+PRODUCT_SHIPPING_API_LEVEL := $(BOARD_API_LEVEL)
 
 # Storage
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
