@@ -251,6 +251,13 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
 
+# NrModeSwitcher
+PRODUCT_PACKAGES += \
+    NrModeSwitcher
+
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.sys.radio.nrmode.auto=3
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
