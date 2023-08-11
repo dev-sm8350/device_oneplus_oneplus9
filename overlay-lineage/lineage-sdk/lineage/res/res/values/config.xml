@@ -62,6 +62,7 @@
     <string-array name="config_cameraHFRPrivAppList" translatable="false">
         <item>com.oplus.camera</item>
         <item>org.lineageos.aperture</item>
+        <item>com.voltage.flash</item>
     </string-array>
 
     <!-- Paths to the libraries that contain device specific key handlers -->
