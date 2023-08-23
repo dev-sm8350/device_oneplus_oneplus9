@@ -531,6 +531,9 @@ PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
 
+# Recovery
+TARGET_USES_AOSP_RECOVERY := true
+
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
