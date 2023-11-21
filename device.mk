@@ -263,10 +263,6 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
-    AOSPAOnePlus9ProSystemUI \
-    AOSPAOnePlus9SeriesFrameworks \
-    AOSPAOnePlus9SeriesSystemUI \
-    AOSPAOnePlus9SystemUI \
     FrameworksResTarget \
     OnePlus9Frameworks \
     OnePlus9ProFrameworks \
