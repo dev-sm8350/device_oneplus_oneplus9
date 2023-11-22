@@ -1,0 +1,57 @@
+[
+    {
+        "remote":       "dev-sm8350",
+        "repository":   "dev-sm8350/device_oneplus_oneplus9",
+        "target_path":  "device/oneplus/oneplus9",
+        "revision":     "14"
+    },
+    {
+        "remote":       "dev-sm8350",
+        "repository":   "dev-sm8350/hardware_oplus",
+        "target_path":  "hardware/oplus",
+        "revision":     "14"
+    },
+    {
+        "remote":       "dev-sm8350",
+        "repository":   "dev-sm8350/hardware_qcom_audio",
+        "target_path":  "hardware/qcom-caf/sm8350/audio",
+        "revision":     "14-sm8350"
+    },
+    {
+        "remote":       "dev-sm8350",
+        "repository":   "dev-sm8350/hardware_qcom_display",
+        "target_path":  "hardware/qcom-caf/sm8350/display",
+        "revision":     "14-sm8350"
+    },
+    {
+        "remote":       "dev-sm8350",
+        "repository":   "dev-sm8350/hardware_qcom_media",
+        "target_path":  "hardware/qcom-caf/sm8350/media",
+        "revision":     "14-sm8350"
+    },
+    {
+        "remote":       "dev-sm8350",
+        "repository":   "dev-sm8350/hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "14-legacy-component"
+    },
+    {
+        "remote":       "dev-sm8350",
+        "repository":   "dev-sm8350/kernel_oneplus_sm8350",
+        "target_path":  "kernel/oneplus/sm8350",
+        "revision":     "14"
+    },
+    {
+        "remote":       "dev-sm8350",
+        "repository":   "dev-sm8350/vendor_oneplus_oneplus9",
+        "target_path":  "vendor/oneplus",
+        "revision":     "14",
+    },
+    {
+        "remote":       "dev-sm8350",
+        "repository":   "dev-sm8350/vendor_oplus_camera",
+        "target_path":  "vendor/oplus/camera",
+        "revision":     "14",
+        "clone-depth":  "1"
+    }
+]
