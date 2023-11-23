@@ -226,6 +226,10 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.oplus.rc
 
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
+
 # Keymaster
 PRODUCT_VENDOR_PROPERTIES += \
     ro.crypto.dm_default_key.options_format.version=2 \
