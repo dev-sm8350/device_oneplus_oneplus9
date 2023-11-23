@@ -383,6 +383,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.oplus
 
+# PowerShare
+PRODUCT_PACKAGES += \
+    vendor.lineage.powershare@1.0-service.oplus
+
 # Update Engine
 PRODUCT_PACKAGES += \
     update_engine \
