@@ -312,6 +312,10 @@ $(call inherit-product, vendor/oneplus/oneplus9/oneplus9-vendor.mk)
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service.oplus
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.3-service-qti
+
 # VNDK
 PRODUCT_PACKAGES += \
     android.hardware.graphics.common-V1-ndk_platform.vendor
