@@ -250,6 +250,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.1-service.oplus
 
+# Doze
+PRODUCT_PACKAGES += \
+    OplusDoze
+
 # Keymaster
 PRODUCT_VENDOR_PROPERTIES += \
     ro.crypto.dm_default_key.options_format.version=2 \
