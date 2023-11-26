@@ -12,9 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Charger
-/sys/class/oplus_chg/*  chg_enable             0660    system  system
-
 # Reserve
 /dev/block/bootdevice/by-name/oplusreserve1    0660    root    system
 /dev/block/bootdevice/by-name/oplusreserve4    0660    root    system
