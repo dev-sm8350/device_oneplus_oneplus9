@@ -635,4 +635,34 @@
             <instance>wifidisplaysessionvideotrack</instance>
         </interface>
     </hal>
+    <!-- Perf -->
+    <hal format="hidl">
+        <name>vendor.qti.hardware.perf</name>
+        <transport>hwbinder</transport>
+        <version>2.2</version>
+        <interface>
+            <name>IPerf</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <!-- Alarm -->
+    <hal format="hidl">
+        <name>vendor.qti.hardware.alarm</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IAlarm</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <!-- GPS QTI Legacy -->
+    <hal format="hidl">
+        <name>vendor.qti.hardware.qccvndhal</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IQccvndhal</name>
+            <instance>qccvndhal</instance>
+        </interface>
+    </hal>
 </manifest>
