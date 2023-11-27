@@ -154,8 +154,8 @@ BOARD_KERNEL_CMDLINE := \
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_BINARIES := kernel
 BOARD_KERNEL_PAGESIZE := 4096
-KERNEL_DEFCONFIG := vendor/lahaina-qgki_defconfig
-USE_KERNEL_AOSP_LLVM := true
+TARGET_KERNEL_SOURCE := kernel/oneplus/sm8350
+TARGET_KERNEL_CONFIG := vendor/lahaina-qgki_defconfig
 
 # Lineage Health
 TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/oplus_chg/battery/chg_enable
