@@ -313,6 +313,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.sys.radio.nrmode.auto=3
 
 # Overlays
+$(call inherit-product, hardware/oplus/overlay/generic/generic.mk)
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 
 DEVICE_PACKAGE_OVERLAYS += \
