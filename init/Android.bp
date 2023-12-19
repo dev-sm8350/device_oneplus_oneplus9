@@ -33,13 +33,6 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.oplus.charging.rc",
-    src: "init.oplus.charging.rc",
-    sub_dir: "init",
-    vendor: true,
-}
-
-prebuilt_etc {
     name: "init.oplus.display.rc",
     src: "init.oplus.display.rc",
     sub_dir: "init",
