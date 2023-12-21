@@ -316,6 +316,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hidl.memory.block@1.0.vendor
 
+# Perf
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/perf/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
