@@ -549,8 +549,9 @@ SOONG_CONFIG_rmnetctl_old_rmnet_data ?= false
 $(call inherit-product, vendor/qcom/opensource/dataservices/dataservices_vendor_product.mk)
 
 # IPACM
-PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/data-ipa-cfg-mgr-legacy
-$(call inherit-product, vendor/qcom/opensource/data-ipa-cfg-mgr-legacy/ipacm_vendor_product.mk)
+PRODUCT_PACKAGES += \
+    ipacm \
+    IPACM_cfg.xml
 
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
