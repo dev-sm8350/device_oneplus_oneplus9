@@ -177,9 +177,6 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti.recovery \
     android.hardware.boot@1.1-service
 
-# Blur
-TARGET_ENABLE_BLUR := true
-
 # Camera
 $(call inherit-product-if-exists, vendor/oplus/camera/oplus-camera.mk)
 PRODUCT_COPY_FILES += \
