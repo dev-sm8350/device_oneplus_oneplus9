@@ -528,10 +528,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.systemhelper@1.0.vendor
 
 # Telephony QTI
-# AIDL / HIDL
-DEVICE_FRAMEWORK_MANIFEST_FILE += $(LOCAL_PATH)/configs/telephony/framework_manifest.xml
-SYSTEM_EXT_MANIFEST_FILES += $(LOCAL_PATH)/configs/telephony/atcmdfwd-saidl.xml
-
 # Radio Packages
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.6 \
