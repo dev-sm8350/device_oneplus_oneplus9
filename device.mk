@@ -288,6 +288,16 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
 
+# GPS Legacy QTI
+# Inherit the GPS HAL.
+$(call inherit-product-if-exists, hardware/qcom/gps/gps_vendor_product.mk)
+
+PRODUCT_PACKAGES += \
+    QCOMGPSFrameworksOverlay
+
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.location.gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.location.gps.xml
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl-qti \
