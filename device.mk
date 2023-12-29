@@ -209,6 +209,8 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.dolby.manufacturer=OPLUS \
     ro.vendor.dolby.brand=OPLUS
 
+TARGET_EXCLUDES_AUDIOFX := true
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor \
