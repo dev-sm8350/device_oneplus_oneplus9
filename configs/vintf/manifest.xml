@@ -645,20 +645,6 @@
             <instance>wifidisplaysessionvideotrack</instance>
         </interface>
     </hal>
-    <!-- Touchscreen Gestures -->
-    <hal format="hidl" override="true">
-        <name>vendor.lineage.touch</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IHighTouchPollingRate</name>
-            <instance>default</instance>
-        </interface>
-        <interface>
-            <name>ITouchscreenGesture</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
     <!-- Perf -->
     <hal format="hidl">
         <name>vendor.qti.hardware.perf</name>
