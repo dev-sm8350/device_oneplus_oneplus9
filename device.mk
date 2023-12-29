@@ -186,6 +186,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     DolbyManager
 
+TARGET_EXCLUDES_AUDIOFX := true
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor \
