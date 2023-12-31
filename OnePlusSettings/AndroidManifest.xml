@@ -19,6 +19,7 @@
 
     <protected-broadcast android:name="com.android.systemui.doze.pulse" />
     <protected-broadcast android:name="org.nameless.device.OnePlusSettings.UPDATE_FPS_SETTINGS" />
+    <protected-broadcast android:name="org.nameless.device.OnePlusSettings.nrmode.intent.SIM_STATE_CHANGED" />
 
     <uses-sdk
         android:minSdkVersion="30"
@@ -180,5 +181,18 @@
                 <action android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER" />
             </intent-filter>
         </provider>
+
+        <!-- NrModeSwitcher -->
+        <service
+            android:name=".service.SimCardListenerService">
+        </service>
+
+        <activity
+            android:name=".NrModeSettingsActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="true"
+            android:label="@string/nrmode_settings_title"
+            android:theme="@style/Theme.SubSettingsBase">
+        </activity>
     </application>
 </manifest>

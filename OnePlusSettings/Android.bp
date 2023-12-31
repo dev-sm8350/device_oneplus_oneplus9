@@ -19,6 +19,7 @@ android_app {
         "src/**/*.kt",
     ],
     static_libs: [
+        "android.hidl.manager-V1.0-java",
         "androidx.core_core",
         "androidx.preference_preference",
     ],
