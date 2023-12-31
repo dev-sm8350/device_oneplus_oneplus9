@@ -86,6 +86,9 @@ persist.vendor.bt.aac_frm_ctl.enabled=true
 persist.vendor.bt.aac_vbr_frm_ctl.enabled=true
 ro.bluetooth.a2dp_offload.supported=true
 
+# Enable 64-bit mediaserver
+ro.mediaserver.64b.enable=true
+
 # Crypto (Keymaster)
 ro.crypto.dm_default_key.options_format.version=2
 ro.crypto.volume.metadata.method=dm-default-key
