@@ -665,4 +665,10 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <!-- Lineage Touch -->
+    <hal format="hidl">
+        <name>vendor.lineage.touch</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IHighTouchPollingRate/default</fqname>
+    </hal>
 </manifest>
