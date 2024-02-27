@@ -1972,7 +1972,6 @@ vendor/etc/wifi/wpa_supplicant_overlay.conf|fd618998d3dcd4b3a408807fa629967c378a
 odm/bin/hw/android.hardware.drm@1.3-service.widevine|c86a66a295e46195c59a40e8c7d7ea3303f27b5e
 odm/etc/init/android.hardware.drm@1.3-service.widevine.rc|7801ccf2718b30ffac54c4beb88370726a4a86c6
 -odm/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
-odm/lib64/liboemcrypto.so|d8534f91f88503fa1c2b88c32c58012f2b6a9532
 odm/lib64/libwvhidl.so|8e64c3559c455f6ac8e71d063fca258656c51990
 odm/lib64/mediadrm/libwvdrmengine.so|9472cba3c701e93b8920000bbaad1ae4020e3518
 vendor/etc/oplus_Widevine_licenses.pfm|3a24c9b4db3cb2625cd83c3b600ca9adf1998dcb
