@@ -176,6 +176,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
     vendor.qti.hardware.camera.postproc@1.0.vendor \
+    libutilscallstack.vendor:64 \
     android.frameworks.stats@1.0.vendor
 
 # Dolby Manager
@@ -444,6 +445,9 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.3 \
     android.hardware.radio.deprecated@1.0 \
     android.system.net.netd@1.1 \
+    libcurl.vendor:64 \
+    libjsoncpp.vendor \
+    libsqlite.vendor:64 \
     libjson \
     vendor.qti.hardware.systemhelperaidl-V1-ndk
 
@@ -572,4 +576,5 @@ PRODUCT_COPY_FILES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libnl \
+    libpng.vendor:32 \
     libwfdaac_vendor
