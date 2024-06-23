@@ -1,4 +1,5 @@
 # Copyright (C) 2022 Paranoid Android
+# Copyright (C) 2021-2024 The LineageOS Project 
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -25,16 +26,9 @@ $(ACDBDATA_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 	@mkdir -p $@
 	$(hide) ln -sf /vendor/etc/acdbdata/adsp_avs_config.acdb $@/adsp_avs_config.acdb
 
-WIFI_FIRMWARE_SYMLINKS := $(TARGET_OUT_VENDOR)/firmware/
-$(WIFI_FIRMWARE_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
-	@echo "Creating wifi firmware symlinks: $@"
-	@mkdir -p $@/wlan/qca_cld
-	$(hide) ln -sf /data/vendor/firmware/wlanmdsp.mbn $@/wlanmdsp.otaupdate
-	$(hide) ln -sf /mnt/vendor/persist/wlan_mac.bin $@/wlan/qca_cld/wlan_mac.bin
 
 ALL_DEFAULT_INSTALLED_MODULES += \
-    $(ACDBDATA_SYMLINKS) \
-    $(WIFI_FIRMWARE_SYMLINKS)
+    $(ACDBDATA_SYMLINKS)
 
 EGL_LIBRARIES := \
 	libEGL_adreno.so \
