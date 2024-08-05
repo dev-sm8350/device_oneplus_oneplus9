@@ -1898,6 +1898,7 @@ vendor/etc/wfdconfig.xml
 vendor/lib/libFileMux_proprietary.so
 vendor/lib/libOmxVideoDSMode.so
 vendor/lib/libmiracast.so
+vendor/lib/libmm-hdcpmgr.so
 vendor/lib/libmmrtpdecoder_proprietary.so
 vendor/lib/libmmrtpencoder_proprietary.so
 vendor/lib/libwfdaac_vendor.so
