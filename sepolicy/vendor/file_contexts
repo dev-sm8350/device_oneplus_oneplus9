@@ -5,6 +5,9 @@
 /mnt/vendor/persist/camera(/.*)?                     u:object_r:vendor_persist_camera_file:s0
 /mnt/vendor/persist/dual_camera_calibration(/.*)?    u:object_r:vendor_persist_camera_file:s0
 
+# Diag
+/vendor/bin/diag-router         u:object_r:vendor_diag-router_exec:s0
+
 # Display
 /dev/oplus_display    u:object_r:graphics_device:s0
 
