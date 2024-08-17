@@ -265,10 +265,6 @@ PRODUCT_PACKAGES += \
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 30
 
-# SOC Properties
-PRODUCT_VENDOR_PROPERTIES += \
-    ro.soc.manufacturer=QTI
-
 # Storage
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
