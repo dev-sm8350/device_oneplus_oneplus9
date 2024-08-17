@@ -174,6 +174,7 @@ PRODUCT_PACKAGES += \
     AOSPAOnePlus9SeriesFrameworks \
     AOSPAOnePlus9SeriesSystemUI \
     AOSPAOnePlus9SystemUI \
+    FrameworksResTarget \
     OnePlus9Frameworks \
     OnePlus9ProFrameworks \
     OnePlus9ProSettings \
@@ -185,7 +186,9 @@ PRODUCT_PACKAGES += \
     OnePlus9SeriesSystemUI \
     OnePlus9Settings \
     OnePlus9SettingsProvider \
-    OnePlus9SystemUI
+    OnePlus9SystemUI \
+    WifiResTarget \
+    WifiResTargetMainline
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
