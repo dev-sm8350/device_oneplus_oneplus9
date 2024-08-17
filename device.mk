@@ -113,6 +113,10 @@ PRODUCT_PACKAGES += \
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
+# Display
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.common-V1-ndk.vendor
+
 # Fastboot
 PRODUCT_PACKAGES += \
     fastbootd
