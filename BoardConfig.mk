@@ -120,6 +120,9 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
 LOC_HIDL_VERSION := 4.3
 
+# Filesystem
+TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
+
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     $(DEVICE_PATH)/configs/vintf/oplus_vendor_framework_compatibility_matrix.xml
