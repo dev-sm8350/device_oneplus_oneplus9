@@ -38,12 +38,12 @@ void vendor_load_properties() {
 
     switch (prj_version) {
         case 11:
-            OverrideProperty("ro.product.odm.device", "OnePlus9Pro");
+            OverrideProperty("ro.product.product.device", "OnePlus9Pro");
             OverrideProperty("ro.surface_flinger.set_idle_timer_ms", "250");
             OverrideProperty("ro.surface_flinger.set_touch_timer_ms", "300");
             break;
         case 12:
-            OverrideProperty("ro.product.odm.device", "OnePlus9");
+            OverrideProperty("ro.product.product.device", "OnePlus9");
             break;
         default:
             LOG(ERROR) << "Unexpected prj version: " << prj_version;
@@ -52,37 +52,37 @@ void vendor_load_properties() {
     switch (rf_version) {
         case 11: // CN
             if (prj_version == 12) {
-                OverrideProperty("ro.product.odm.model", "LE2110");
+                OverrideProperty("ro.product.product.model", "LE2110");
             } else if (prj_version == 11) {
-                OverrideProperty("ro.product.odm.model", "LE2120");
+                OverrideProperty("ro.product.product.model", "LE2120");
             }
             break;
         case 12: // TMO
             if (prj_version == 12) {
-                OverrideProperty("ro.product.odm.model", "LE2117");
+                OverrideProperty("ro.product.product.model", "LE2117");
             } else if (prj_version == 11) {
-                OverrideProperty("ro.product.odm.model", "LE2127");
+                OverrideProperty("ro.product.product.model", "LE2127");
             }
             break;
         case 13: // IN
             if (prj_version == 12) {
-                OverrideProperty("ro.product.odm.model", "LE2111");
+                OverrideProperty("ro.product.product.model", "LE2111");
             } else if (prj_version == 11) {
-                OverrideProperty("ro.product.odm.model", "LE2121");
+                OverrideProperty("ro.product.product.model", "LE2121");
             }
             break;
         case 21: // EU
             if (prj_version == 12) {
-                OverrideProperty("ro.product.odm.model", "LE2113");
+                OverrideProperty("ro.product.product.model", "LE2113");
             } else if (prj_version == 11) {
-                OverrideProperty("ro.product.odm.model", "LE2123");
+                OverrideProperty("ro.product.product.model", "LE2123");
             }
             break;
         case 22: // NA
             if (prj_version == 12) {
-                OverrideProperty("ro.product.odm.model", "LE2115");
+                OverrideProperty("ro.product.product.model", "LE2115");
             } else if (prj_version == 11) {
-                OverrideProperty("ro.product.odm.model", "LE2125");
+                OverrideProperty("ro.product.product.model", "LE2125");
             }
             break;
         default:
