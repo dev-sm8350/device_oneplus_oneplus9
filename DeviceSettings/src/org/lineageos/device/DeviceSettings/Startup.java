@@ -17,7 +17,6 @@
 package org.lineageos.device.DeviceSettings;
 
 import android.content.BroadcastReceiver;
-import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -27,11 +26,12 @@ import org.lineageos.internal.util.FileUtils;
 public class Startup extends BroadcastReceiver {
 
     private static final String TAG = Startup.class.getSimpleName();
+    private static final String ACTION_INITIALIZE_LINEAGE_HARDWARE = "org.lineageos.intent.action.INITIALIZE_LINEAGE_HARDWARE";
 
     @Override
     public void onReceive(Context context, Intent intent) {
         final String action = intent.getAction();
-        if (lineageos.content.Intent.ACTION_INITIALIZE_LINEAGE_HARDWARE.equals(action)) {
+        if (ACTION_INITIALIZE_LINEAGE_HARDWARE.equals(action)) {
             DeviceSettings.restoreSliderStates(context);
             DeviceSettings.restoreFastChargeSetting(context);
             DeviceSettings.restoreVibStrengthSetting(context);
