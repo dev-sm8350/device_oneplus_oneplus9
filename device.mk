@@ -258,7 +258,7 @@ PRODUCT_PACKAGES += \
 
 # GPS Legacy QTI
 # Inherit the GPS HAL.
-$(call inherit-product-if-exists, hardware/qcom/gps/gps_vendor_product.mk)
+$(call inherit-product-if-exists, hardware/oplus/gps/gps_vendor_product.mk)
 
 PRODUCT_PACKAGES += \
     QCOMGPSFrameworksOverlay
